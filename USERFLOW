@@ -1,0 +1,73 @@
+# User Flow (Easy Explanation)
+
+## Definition
+
+**User Flow** is the step-by-step path a user follows while using an application or website to complete a task.
+
+## Simple Example (Online Shopping)
+
+```text
+Open App
+    ↓
+Login / Sign Up
+    ↓
+Search Product
+    ↓
+Select Product
+    ↓
+Add to Cart
+    ↓
+Make Payment
+    ↓
+Order Confirmed
+```
+
+## Another Example (Student Management System)
+
+```text
+Start
+  ↓
+Login
+  ↓
+Dashboard
+  ↓
+View / Add / Update Student Details
+  ↓
+Save Data
+  ↓
+Logout
+  ↓
+End
+```
+
+## Why is User Flow Important?
+
+* Makes the application easy to use.
+* Helps users complete tasks quickly.
+* Reduces confusion.
+* Improves user experience.
+* Identifies unnecessary steps.
+
+## Advantages
+
+* Easy navigation.
+* Better user satisfaction.
+* Saves time.
+* Reduces errors.
+* Improves application design.
+
+## 5-Mark Exam Answer
+
+**User Flow** is the sequence of steps a user follows to complete a task in an application or website. It helps designers and developers understand how users interact with the system and ensures a smooth, simple, and user-friendly experience.
+
+**Example User Flow:**
+
+1. Open the application.
+2. Login or Sign Up.
+3. Access the dashboard.
+4. Perform the required task.
+5. Save the information.
+6. Logout.
+
+**Memory Trick:**
+**Open → Login → Use → Save → Logout**
