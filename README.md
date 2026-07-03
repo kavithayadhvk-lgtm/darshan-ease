@@ -262,7 +262,6 @@ Admin can:
 * View Bookings
 * Remove Invalid Users
 * Generate Reports
-
 Admin has complete control over the application.
 
 ## Reporting and Analytics
