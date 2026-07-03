@@ -98,3 +98,230 @@ The Ticket Service generates electronic tickets after successful booking.
 * Express.js
 * PDF Generator Library (optional, if generating downloadable PDFs)
 
+
+
+
+
+
+
+
+
+
+### DarshanEase – Feature Explanation
+
+## Devotee Registration and Authentication
+Purpose: Allow devotees to create an account and log in securely.
+
+### What to do:
+* Create a registration page.
+* Collect user details (Name, Email, Phone, Password).
+* Store user details in the database.
+* Encrypt passwords.
+* Create a login page.
+* Verify user credentials before allowing access.
+
+## Darshan Listings
+Purpose: Show all available darshan slots.
+
+### What to do:
+Display:
+* Temple Name
+* Location
+* Darshan Date
+* Start Time
+* End Time
+* Available Seats
+* Price
+
+## Temple Selection
+Purpose: Allow devotees to choose a temple.
+
+### What to do:
+Display:
+* Temple Name
+* Temple Image
+* Location
+* Description
+* Opening Hours
+* Darshan Timings
+When a user selects a temple, display its available darshan slots.
+
+## Slot Selection
+Purpose:Allow users to select their preferred darshan slot.
+
+### What to do:
+Show:
+* Date
+* Time
+* Available Seats
+* Ticket Price
+When the user clicks **Book Slot**, proceed to booking.
+
+## Ticket Booking
+Purpose: Book tickets for the selected slot.
+
+### What to do:
+Allow the user to:
+* Select number of devotees
+* Enter devotee details (optional)
+* Calculate total amount
+* Confirm booking
+Create a booking record in the database.
+
+## Donation Integration
+Purpose: Allow devotees to donate while booking tickets.
+
+### What to do:
+Add:
+* Donation Amount field
+* Optional donation checkbox
+
+Integrate a payment gateway like:
+* Razorpay
+* Stripe
+* PayPal
+This feature is optional for a college project if payment integration is difficult.
+
+## Booking Confirmation
+Purpose: Show confirmation after successful booking.
+
+### What to do:
+Display:
+* Booking ID
+* Temple Name
+* Date
+* Time
+* Number of Tickets
+* Total Amount
+
+Optionally:
+* Send confirmation email
+* Generate PDF ticket
+
+## Booking History
+Purpose: Allow users to view previous bookings.
+
+### What to do:
+Display:
+* Booking Date
+* Temple Name
+* Slot Time
+* Booking Status
+
+Provide buttons:
+* View Ticket
+* Cancel Booking (if allowed)
+
+## Darshan Slot Availability Tracking
+Purpose: Update available seats automatically.
+
+### What to do:
+Whenever someone books:
+```
+Available Seats = Available Seats - Number of Tickets
+```
+
+Whenever someone cancels:
+```
+Available Seats = Available Seats + Number of Tickets
+```
+
+Always display updated seat availability.
+
+## Organizer Dashboard
+Purpose: Used by temple organizers.
+
+### What to do:
+Organizer should be able to:
+* Add temples
+* Add darshan slots
+* Update slot timings
+* View bookings
+* Issue tickets
+* Manage seat availability
+
+## Darshan Slot Management
+Purpose: Manage darshan slots.
+
+### What to do:
+Organizer can:
+* Add Slot
+* Edit Slot
+* Delete Slot
+* Update Seat Availability
+
+## Admin Dashboard
+Purpose: Control the entire system.
+
+### What to do:
+Admin can:
+* Manage Users
+* Manage Organizers
+* Manage Temples
+* Manage Slots
+* View Bookings
+* Remove Invalid Users
+* Generate Reports
+
+Admin has complete control over the application.
+
+## Reporting and Analytics
+Purpose:Generate useful reports.
+
+### What to do:
+Show:
+* Total Bookings
+* Total Donations
+* Popular Temples
+* Daily Bookings
+* Monthly Bookings
+* Available Slots
+* Cancelled Bookings
+
+Display reports using:
+* Charts
+* Tables
+* Graphs
+
+
+## Integration with External APIs
+Purpose: Connect the application with external services.
+
+### What to do:
+Examples:
+* Google Maps API (Temple Location)
+* Razorpay API (Payments)
+* Email API (Booking Confirmation)
+* SMS API (Booking Updates)
+
+
+
+### 👤 Devotee
+
+* Register/Login
+* View Temples
+* View Darshan Slots
+* Book Tickets
+* Donate (Optional)
+* View Booking History
+* Download Ticket
+* Cancel Booking
+
+### 🏛️ Organizer
+
+* Add/Edit Temples
+* Add/Edit Darshan Slots
+* Manage Seat Availability
+* View Bookings
+* Issue Tickets
+
+### 👨‍💼 Admin
+
+* Manage Users
+* Manage Organizers
+* Manage Temples
+* Manage Bookings
+* Generate Reports
+* Monitor System
+
+
