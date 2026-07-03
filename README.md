@@ -296,32 +296,6 @@ Examples:
 
 
 
-### 👤 Devotee
 
-* Register/Login
-* View Temples
-* View Darshan Slots
-* Book Tickets
-* Donate (Optional)
-* View Booking History
-* Download Ticket
-* Cancel Booking
-
-### 🏛️ Organizer
-
-* Add/Edit Temples
-* Add/Edit Darshan Slots
-* Manage Seat Availability
-* View Bookings
-* Issue Tickets
-
-### 👨‍💼 Admin
-
-* Manage Users
-* Manage Organizers
-* Manage Temples
-* Manage Bookings
-* Generate Reports
-* Monitor System
 
 
