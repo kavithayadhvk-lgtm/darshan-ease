@@ -1,0 +1,15 @@
+{
+  "name": "darshanease",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DarshanEase - Temple Darshan Booking System using microservices architecture",
+  "scripts": {
+    "start:gateway": "cd api-gateway && npm start",
+    "start:auth": "cd services/auth-service && npm start",
+    "start:temple": "cd services/temple-service && npm start",
+    "start:darshan": "cd services/darshan-service && npm start",
+    "start:slot": "cd services/slot-service && npm start",
+    "start:booking": "cd services/booking-service && npm start",
+    "start:ticket": "cd services/ticket-service && npm start"
+  }
+}
